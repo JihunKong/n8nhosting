@@ -4,12 +4,12 @@
   "description": "n8n workflow automation on Railway",
   "main": "index.js",
   "scripts": {
-    "start": "n8n start"
+    "start": "n8n"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "n8n": "latest"
+    "n8n": "1.22.6"
   }
 }
