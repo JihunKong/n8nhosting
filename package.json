@@ -4,12 +4,13 @@
   "description": "n8n workflow automation on Railway",
   "main": "index.js",
   "scripts": {
-    "start": "n8n"
+    "start": "NODE_OPTIONS=--max-old-space-size=2048 n8n start --tunnel"
   },
   "engines": {
     "node": "20.x"
   },
   "dependencies": {
-    "n8n": "1.22.6"
+    "n8n": "1.22.6",
+    "sqlite3": "5.1.6"
   }
 }
