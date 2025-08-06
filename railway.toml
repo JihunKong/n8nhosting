@@ -1,5 +1,6 @@
 [build]
 builder = "NIXPACKS"
+nixpacksConfigPath = "nixpacks.toml"
 
 [deploy]
 startCommand = "npx n8n"
@@ -9,3 +10,4 @@ restartPolicyMaxRetries = 3
 [variables]
 N8N_HOST = "0.0.0.0"
 NODE_ENV = "production"
+NIXPACKS_NODE_VERSION = "20"
