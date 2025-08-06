@@ -4,7 +4,7 @@
   "description": "n8n workflow automation on Railway",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_OPTIONS=--max-old-space-size=2048 n8n start --tunnel"
+    "start": "export N8N_PORT=$PORT && n8n start"
   },
   "engines": {
     "node": "20.x"
